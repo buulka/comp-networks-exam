@@ -40,4 +40,57 @@
 - PPTP (Point-to-Point Tunelling Protocol)
 - RPC (Remote Procedure Call Protocol()
 
+## 5. Транспортный уровень (transport layer)
+Функции:
+- Обеспечивает надежную доставку данных, подтверждение приема и сегментацию потока, получаемого от сеансового уровня
+
+Протоколы:
+- TCP (Transmission Control Protocol)
+- UDP (User Datagram Protocol)
+
+## 6. Сетевой уровень (network layer)
+Функции:
+- Решает задачу доставки данных по составной сети, межсетевую адресацию, трансляцию физических адресов в сетевые
+
+Протоколы:
+- IP/IPv4/IPv6 (Internet Prtotocol)
+- IPX (Internetwork Packet Exchange)
+- IPsec (Internet Protocol Security)
+- ICMP (Internet Control Message Protocol)
+- RIP (Routing Information Protocol)
+- OSFP (Open Shortest Path First)
+- ARP (Address Resolution Protocol)
+
+## 7. Канальный уровень (data link layer)
+Функции:
+- Обеспечивает формирование фреймов - кадров
+- Обеспечивает контроль и управление потоком данных (data flow control)
+- Логическое кодирование данных
+
+Протоколы:
+- ATM
+- Ethernet
+- EAPS (Ethernet Automatic Protection Switching)
+- FDDI (Fiber Distributed Data Interface)
+- MPLS (Multiprotocol Label Switching)
+- PPP (Point-to-Point Protocol)
+- SLIP (Serial Line Internet Protocol)
+
+## 8. Физический уровень (physical layer)
+Функции:
+- Обеспечивает физическое кодирование бит кадра в электрические (оптические) сигналы и передачу их по линиям связи
+- Определяет тип кабелей и разъемов, назначение контактов и формат физических сигналов
+
+Протоколы:
+- IEEE 802.15 (Bluetooth)
+- IRDA
+- EIA-RS-232
+- EIA-422
+- Ethernet
+- DSL
+- ISDN
+- IEEE 802.11
+
+
+
 
